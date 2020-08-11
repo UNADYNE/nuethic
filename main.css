@@ -1,0 +1,25 @@
+.landing-wrapper {
+    color: white;
+    position: relative;
+}
+
+.landing-bg {
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("./assets/images/hostage_bg.png");
+}
+
+.landing-text {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+
+#trust-text{
+    color: #5858c5;
+}
+
+.landing-btn-group {
+
+}
