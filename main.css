@@ -25,7 +25,7 @@
     left: 10%;
 }
 
-#trust-text{
+#trust-text {
     color: #3d8bd9;
 }
 
@@ -52,6 +52,57 @@
     padding: .5rem;
 }
 
-#review-wrapper {
-
+.nav-link:hover {
+    background-color: rgba(100, 100, 100, .5);
+    border-radius: 3px;
 }
+
+.navbar-brand:hover {
+    background-color: rgba(100, 100, 100, .5);
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+.landing-btn:hover {
+    background-color: rgba(100, 100, 100, .5);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .75);
+}
+
+
+/* BELOW LANDING*/
+.who-we-are {
+    position: relative;
+    height: 56rem;
+    color: black;
+    background-color: #f8f8ff;
+}
+
+.mission {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin:5%;
+}
+
+.mission p {
+    /*width: 42rem;*/
+    height: auto;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+}
+
+
+.what-we-do {
+    height: 56rem;
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .mission {
+        grid-template-columns: 1fr;
+    }
+}
+
