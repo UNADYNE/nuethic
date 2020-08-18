@@ -1,5 +1,5 @@
-let navLink;
-document.addEventListener('DOMContentLoaded', (e) => {
-    navLink = document.getElementsByClassName('nav-link');
-
+$(document).ready(function () {
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 });

@@ -12,6 +12,7 @@
     z-index: 5;
 }
 
+
 .landing-bg {
     width: auto;
     height: 100vh;
@@ -72,7 +73,7 @@
 /* BELOW LANDING*/
 .who-we-are {
     position: relative;
-    height: 56rem;
+    height: 30rem;
     color: black;
     background-color: #f8f8ff;
 }
@@ -82,7 +83,7 @@
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
-    margin:5%;
+    margin: 5%;
 }
 
 .mission p {
@@ -96,13 +97,130 @@
 }
 
 
-.what-we-do {
-    height: 56rem;
+.header-center {
+    margin: 0 0 2rem 36%;
 }
+
+.main-footer {
+    background-color: #1e272e;
+    height: 28rem;
+}
+
+.footer-social {
+    width: 80%;
+    margin-left: 10%;
+    border-top: 1px solid rgb(153, 153, 153);
+}
+
+.social-icon {
+    width: 10%;
+}
+
+
+.carousel-caption {
+    /*right: 50%;*/
+    bottom: -3%;
+}
+
+.carousel-caption p, h2 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.carousel-caption h2:hover {
+    color: #5959c9;
+}
+
+.logo-wrapper {
+    position: absolute;
+    left: 1%;
+    top: 25%;
+}
+
+#shopify-logo {
+    animation: slideIn 4800ms;
+}
+
+#woo-logo {
+    animation: slideIn 3800ms;
+}
+
+#big-logo {
+    animation: slideIn 2800ms;
+}
+
+#magento-logo {
+    animation: slideIn 1800ms;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-500rem);
+    }
+}
+
+#dt-caption {
+    color: #424242;
+}
+
+#dt-caption:hover {
+    color: #3d8bd9;
+}
+
+#hifi-caption {
+    color: #424242;
+}
+
+#hifi-caption:hover {
+    color: #3d8bd9;
+}
+
+#rec-caption {
+    color: #424242;
+}
+
+#rec-caption:hover {
+    color: #3d8bd9;
+}
+
 
 @media screen and (min-width: 360px) and (max-width: 480px) {
     .mission {
         grid-template-columns: 1fr;
+    }
+
+    .landing-btn-group {
+        grid-template-columns: 1fr;
+        bottom: 3%;
+        left: 25%;
+        grid-gap: 1rem;
+    }
+
+    #quote-btn {
+        width: 12rem;
+        padding-left: 1.66rem;
+    }
+
+    #call-btn {
+        width: 12rem;
+        padding-left: 1.66rem;
+        margin: 0;
+    }
+
+    .header-center {
+        margin: 0 0 1rem 30%;
+    }
+
+    .header-center h1 {
+        font-size: large;
+    }
+
+    #portfolio-slider {
+        margin: 0;
+    }
+
+    .carousel-item img {
+        width: 100%;
     }
 }
 
