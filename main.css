@@ -189,6 +189,14 @@
         grid-template-columns: 1fr;
     }
 
+    .landing-text h2, h3 {
+        font-size: medium;
+    }
+
+    .landing-text {
+        padding: 0 1rem;
+    }
+
     .landing-btn-group {
         grid-template-columns: 1fr;
         bottom: 3%;
@@ -221,6 +229,21 @@
 
     .carousel-item img {
         width: 100%;
+    }
+
+    .logo img {
+        width: 4rem;
+    }
+
+    .logo-wrapper {
+        top: 40%;
+    }
+    .logo{
+        margin-top: 1rem;
+    }
+
+    .main-footer {
+        height: auto;
     }
 }
 
